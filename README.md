@@ -2,4 +2,8 @@
 
 ```bash
 cd cccu-aos-andresmurillas
+
+gcc main.c -o program
+
+./program
 ```
