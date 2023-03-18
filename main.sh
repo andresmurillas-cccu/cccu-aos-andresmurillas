@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 FSWEB=$(dpkg -l | grep fswebcam)
 if [ -z '$FSWEB' ]; then
     sudo apt-get install fswebcam
