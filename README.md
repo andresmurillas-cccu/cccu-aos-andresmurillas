@@ -1,9 +1,12 @@
 <h1>3-D Printer Failsafe System<h1>
 
+<h3>Usage<h3>
 ```bash
+git clone <repository url>
+
 cd cccu-aos-andresmurillas
 
-gcc main.c -o program
+pip install -r requirements.txt
 
-./program
+python src/main.py
 ```
