@@ -52,5 +52,14 @@ def main():
                 print("Next capture in", delay - i)
                 time.sleep(1)
 
+# Send photos to remote storage
+#   url = input("introduce url")
+#   file_dict = {}
+#   for file in files:
+#       file_dict[file] = open(folder_path + file, "rb")
+#   response = requests.post(url, files=file_dict)
+#   logging.info(response)
+
+
 if __name__ == '__main__':
     main()
